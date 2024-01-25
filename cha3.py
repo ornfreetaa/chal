@@ -41,7 +41,7 @@ def main():
 
     # this will execute if you win all 10 games
     print("[*] Printing flag...")
-    print(open("flag.txt").read())
+    print(open("/ctf/chal3/flag.txt").read())
 
 # run the main function
 if __name__ == "__main__":
